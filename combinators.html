@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         /* descendant selector  */
+        div p{
+            background: violet;
+        }
+        /* Adjacent sibling selector  */
+        div+p{
+            background: blue;
+        }
+
+        /* child selector */
+        div>p {
+            background: brown;
+        }
+
+        /* general sibling selector */
+        div~p{
+            background: burlywood;
+        }
+    </style>
+</head>
+<body>
+     <!-- descendant selector -->
+    <div>
+
+        <p>Paragraph 1 in the div</p>
+        <p>Paragraph 2 in the div</p>
+   
+    <section>
+        <p>Paragraph 2 in the section</p>
+    </section>
+   </div>
+   <p>Adjacent sibling selector</p>
+   <p>selector</p>
+
+   <!-- Adjacent sibling selector -->
+
+
+</body>
+</html>
